@@ -1,6 +1,6 @@
 cask "side-calendar" do
-  version "0.3.30"
-  sha256 "aa0c0de61b0b9c4ad74d22c14d304f30334d0a5c4b31f7155613e08fe85ebe69"
+  version "0.3.31"
+  sha256 "e3cc6ddba68b61c25946506967b22e4a73bb38c43b2a98d7ff1618fae6bc3ee2"
 
   url "https://github.com/sha2kyou/SideCalendar/releases/download/#{version}/SideCalendar.dmg"
   name "SideCalendar"
@@ -15,7 +15,5 @@ cask "side-calendar" do
   app "SideCalendar.app"
 
   zap trash: [
-    "~/Library/Preferences/com.sha2kyou.SideCalendar.plist",
-    "~/Library/Application Support/SideCalendar",
   ]
 end
