@@ -1,4 +1,4 @@
-cask "sidecalendar" do
+cask "side-calendar" do
   version "0.3.30"
   sha256 "aa0c0de61b0b9c4ad74d22c14d304f30334d0a5c4b31f7155613e08fe85ebe69"
 
