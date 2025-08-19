@@ -8,7 +8,8 @@ cask "sidecalendar" do
   homepage "https://github.com/sha2kyou/SideCalendar"
 
   livecheck do
-    url :github_latest
+    url :url
+    strategy :github_latest
   end
 
   app "SideCalendar.app"
