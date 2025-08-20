@@ -1,6 +1,6 @@
 cask "side-calendar" do
-  version "0.3.35"
-  sha256 "394bb7f1cb22871cf5c4a740c819150eb6a77e13f2928b88a8b62d8b6c0c4854"
+  version "0.2025.37"
+  sha256 "c473973728d7a35446a687b0ce3c0ef03dc9b841fbf32eca1c50c310c589740e"
 
   url "https://github.com/sha2kyou/SideCalendar/releases/download/#{version}/SideCalendar.dmg"
   name "SideCalendar"
@@ -11,6 +11,8 @@ cask "side-calendar" do
     url :url
     strategy :github_latest
   end
+
+  depends_on macos: ">= :sonoma" # 14.0
 
   app "SideCalendar.app"
 
