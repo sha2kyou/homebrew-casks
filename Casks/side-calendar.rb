@@ -4,7 +4,7 @@ cask "side-calendar" do
 
   url "https://github.com/sha2kyou/SideCalendar/releases/download/#{version}/SideCalendar.dmg"
   name "SideCalendarLite"
-  desc "A timeline app that displays calendar events and information flow on the edge of your screen."
+  desc "SideCalendar is a macOS menu bar app that unifies events and information from various sources (Calendar, Reminders, RSS, GitHub, etc.) into a dynamic screen edge information stream."
   homepage "https://github.com/sha2kyou/SideCalendar"
 
   livecheck do
