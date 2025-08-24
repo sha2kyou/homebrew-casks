@@ -17,7 +17,7 @@ cask "side-calendar" do
   app "SideCalendar.app"
 
   zap trash: [
-    "~/Library/Containers/cn.tr1ck.SideCalendar",
-    "~/Library/Preferences/cn.tr1ck.SideCalendar.plist"
+    "~/Library/Preferences/cn.tr1ck.SideCalendar.plist",
+    "~/Library/Containers/cn.tr1ck.SideCalendar"
   ]
 end
