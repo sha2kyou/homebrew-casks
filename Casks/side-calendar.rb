@@ -1,6 +1,6 @@
 cask "side-calendar" do
-  version "0.2025.55_2"
-  sha256 "0daf865f5f73ff94059784a38e2c34511f9f2a2a79627d618659741f39538e56"
+  version "0.2025.55_3"
+  sha256 "2de7a77433a81fa57f27fa9cb3cd10ffe27fedd953989229cd6ff5f9e29b12e0"
 
   url "https://github.com/sha2kyou/SideCalendar/releases/download/#{version}/SideCalendar.dmg"
   name "SideCalendarLite"
