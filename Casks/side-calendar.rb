@@ -14,7 +14,7 @@ cask "side-calendar" do
 
   depends_on macos: ">= :sonoma" # 14.0
 
-  app "SideCalendar Lite.app"
+  app "SideCalendar\ Lite.app"
 
   zap trash: [
     "~/Library/Preferences/cn.tr1ck.SideCalendarLite.plist",
